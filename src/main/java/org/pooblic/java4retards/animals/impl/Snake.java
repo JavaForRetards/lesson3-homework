@@ -1,9 +1,10 @@
 package org.pooblic.java4retards.animals.impl;
 
 import org.pooblic.java4retards.animals.Animal;
+import org.pooblic.java4retards.animals.ITalkative;
 import org.pooblic.java4retards.animals.LegNumber;
 
-public class Snake extends Animal {
+public class Snake extends Animal implements ITalkative {
 
 	protected Snake(String name, int age) {
 		super(name, age, LegNumber.NONE);
@@ -12,5 +13,10 @@ public class Snake extends Animal {
 	@Override
 	public void printScientificName() {
 		System.out.println("Python molurus"); //Indian python
+	}
+
+	@Override
+	public void makeSound() {
+		System.out.println("hisss!");
 	}
 }
