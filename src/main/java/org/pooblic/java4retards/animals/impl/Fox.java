@@ -4,7 +4,7 @@ import org.pooblic.java4retards.animals.Animal;
 import org.pooblic.java4retards.animals.LegNumber;
 
 public class Fox extends Animal {
-	protected Fox(String name, int age) {
+	public Fox(String name, int age) {
 		super(name, age, LegNumber.QUADRUPED);
 	}
 

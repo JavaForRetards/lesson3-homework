@@ -5,7 +5,7 @@ import org.pooblic.java4retards.animals.ITalkative;
 import org.pooblic.java4retards.animals.LegNumber;
 
 public class Pigeon extends Animal implements ITalkative {
-	protected Pigeon(String name, int age) {
+	public Pigeon(String name, int age) {
 		super(name, age, LegNumber.BIPED);
 	}
 

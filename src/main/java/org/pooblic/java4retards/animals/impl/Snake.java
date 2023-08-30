@@ -6,7 +6,7 @@ import org.pooblic.java4retards.animals.LegNumber;
 
 public class Snake extends Animal implements ITalkative {
 
-	protected Snake(String name, int age) {
+	public Snake(String name, int age) {
 		super(name, age, LegNumber.NONE);
 	}
 
