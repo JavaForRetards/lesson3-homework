@@ -1,4 +1,4 @@
-package org.example;
+package org.pooblic.java4retards.animals;
 
 public enum LegNumber {
 	BIPED(2, "two"),

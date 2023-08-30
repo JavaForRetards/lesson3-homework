@@ -1,4 +1,9 @@
-package org.example;
+package org.pooblic.java4retards;
+
+import org.pooblic.java4retards.animals.Animal;
+import org.pooblic.java4retards.animals.ITalkative;
+import org.pooblic.java4retards.animals.impl.Cat;
+import org.pooblic.java4retards.animals.impl.Dog;
 
 public class Main {
 	public static void main(String[] args) {
