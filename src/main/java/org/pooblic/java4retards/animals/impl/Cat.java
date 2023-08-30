@@ -5,8 +5,8 @@ import org.pooblic.java4retards.animals.LegNumber;
 import org.pooblic.java4retards.animals.Animal;
 
 public class Cat extends Animal implements ITalkative {
-	public Cat(String name, int age) {
-		super(name, age, LegNumber.QUADRUPED); //cats are all quadrupeds
+	public Cat(String name, String subspecies, int age) {
+		super(name, subspecies, age, LegNumber.QUADRUPED); //cats are all quadrupeds
 	}
 
 	@Override

@@ -6,8 +6,8 @@ import org.pooblic.java4retards.animals.LegNumber;
 
 public class Snake extends Animal implements ITalkative {
 
-	public Snake(String name, int age) {
-		super(name, age, LegNumber.NONE);
+	public Snake(String name, String subspecies, int age) {
+		super(name, subspecies, age, LegNumber.NONE);
 	}
 
 	@Override
