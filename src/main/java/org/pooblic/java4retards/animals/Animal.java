@@ -22,4 +22,9 @@ public abstract class Animal implements IScientificallyNameable {
 	public void printLegNumber() {
 		this.legNumber.printLegNumber();
 	}
+
+	@Override
+	public void printBiologicalKingdom() {
+		System.out.println("Animalia");
+	}
 }
