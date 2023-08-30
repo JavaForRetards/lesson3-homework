@@ -17,6 +17,6 @@ public enum LegNumber {
 	}
 
 	public void printLegNumber() {
-		System.out.printf("This animal has %s legs!", this.legNumberName);
+		System.out.printf("This animal has %s legs!\n", this.legNumberName);
 	}
 }

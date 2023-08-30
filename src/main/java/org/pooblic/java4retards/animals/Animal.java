@@ -12,7 +12,7 @@ public abstract class Animal implements IScientificallyNameable {
 	}
 
 	public void call() {
-		System.out.printf("Come here, %s!", this.name);
+		System.out.printf("Come here, %s!\n", this.name);
 	}
 
 	public void ageUp() {
