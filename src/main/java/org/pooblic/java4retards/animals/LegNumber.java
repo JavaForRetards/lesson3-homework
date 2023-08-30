@@ -1,6 +1,7 @@
 package org.pooblic.java4retards.animals;
 
 public enum LegNumber {
+	NONE(0, "no"),
 	BIPED(2, "two"),
 	QUADRUPED(4, "four");
 
